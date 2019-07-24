@@ -74,7 +74,7 @@ BTC_PORT=8332
 Usage
 -----
    
-To use the Ethereum Client Library you can use the facade, or request the instance from the service container:
+To use the Bitcoin Client Library you can use the facade, or request the instance from the service container:
 
 ```php
 try{
