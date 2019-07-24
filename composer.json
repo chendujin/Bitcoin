@@ -1,7 +1,7 @@
 {
     "name": "chendujin/bitcoin",
     "description": "bitcoin is a plugin for a unified Bitcoin digital currency open API interface",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
