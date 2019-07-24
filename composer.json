@@ -1,0 +1,40 @@
+{
+    "name": "chendujin/bitcoin",
+    "description": "bitcoin is a plugin for a unified Bitcoin digital currency open API interface",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chendujin",
+            "email": "1096381436@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Chendujin\\Bitcoin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chendujin\\Bitcoin\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "~5.3|~6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chendujin\\Bitcoin\\BitcoinServiceProvider"
+            ],
+            "aliases": {
+                "Bitcoin": "Chendujin\\Bitcoin\\Facade\\Bitcoin"
+            }
+        }
+    }
+}
