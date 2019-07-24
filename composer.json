@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chendujin\\Bitcoin\\src\\BitcoinServiceProvider"
+                "Chendujin\\Bitcoin\\BitcoinServiceProvider"
             ],
             "aliases": {
                 "Bitcoin": "Chendujin\\Bitcoin\\Facade\\Bitcoin"
