@@ -15,11 +15,6 @@
             "Chendujin\\Bitcoin\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Chendujin\\Bitcoin\\Tests\\": "tests/"
-        }
-    },
     "require": {
         "php": ">=7.0.0",
         "guzzlehttp/guzzle": "~5.3|~6.2"
